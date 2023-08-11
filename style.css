@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-toggle button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.form-toggle button.active {
+    border-bottom: 2px solid #333;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* ... Your previous CSS code ... */
+
+.form-switch {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-switch a {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
